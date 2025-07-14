@@ -1,6 +1,99 @@
 
 
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+.btn-primary{
+    border-radius: 6px;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    padding: 15px 30px;
+    margin-top: 06px;
+}
+.btn-primary:hover {
+    color: aquamarine;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
+}
+
+.search-bar{
+    position: relative;
+    color: 
+}
+.search-bar input{
+    border-radius: 60px;
+    padding: 15px 30px;
+    width: 500px;
+    background-color: rgb(229, 229, 229);
+    border: none;
+}
+.search-bar i{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 26px;
+}
+.nav-items li{
+    border-bottom: 0;
+}
+.nav-items li a{
+    border-bottom: 0;
+    text-decoration: none;
+    color: #707070;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* banner */
+
+.banner{
+    background-color: #FEEAE9;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    padding: 25px;
+}
+.banner h2{
+    color: #1F1F1F;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: left; 
+}
+.banner p{
+    color: #4E4E4E;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 500px;
+}
+.banner-price{
+    padding: 25px 10px;
+    margin: 25px 10px;
+}
+.banner button{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.banner img{
+    width: 402px;
+    height: 375px;
+}
+.banner-price{
+    color: #FF136F;
+    font-weight: bold;
+    font-size: 46px;
+
 }
