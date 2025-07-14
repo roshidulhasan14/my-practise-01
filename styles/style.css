@@ -3,6 +3,7 @@
 
 *{
     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
 }
 
 .container{
@@ -15,6 +16,10 @@
     padding: 15px 30px;
     margin-top: 06px;
 }
+.common-section-title{
+    width: 600;
+    font-size: 36px;
+}
 .btn-primary:hover {
     color: aquamarine;
 }
@@ -22,6 +27,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .search-bar{
@@ -65,6 +71,7 @@ nav{
     gap: 50px;
     align-items: center;
     padding: 25px;
+    margin-top: 45px;
 }
 .banner h2{
     color: #1F1F1F;
@@ -96,4 +103,61 @@ nav{
     font-weight: bold;
     font-size: 46px;
 
+}
+/* categories */
+
+.caterogies{
+    margin: 46px 0;
+}
+.categories-card-container{
+    display: flex;
+    gap: 25px;
+    
+}
+.categories-card{
+    display: flex;
+    background: linear-gradient(151.85deg, 
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+.categories-card-1{
+    display: flex;
+    background: linear-gradient(151.85deg, 
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+}
+.categories-card h3{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.categories-card-2{
+    background: linear-gradient(180.00deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+     border-radius: 10px;
+     gap: 10px;
+}
+.categories-card-3{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+     border-radius: 10px;
+     background: linear-gradient(170.38deg, 
+     rgb(66, 137, 255) 15.416%,
+     rgb(63, 7, 248) 74.29%);
 }
